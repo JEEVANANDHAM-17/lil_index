@@ -1,0 +1,101 @@
+
+body
+{
+    background-color: #EAFFFF;
+}
+
+.logo
+{
+    box-sizing: border-box;
+    position: relative;
+
+    
+    width: 20%;
+    max-width: 133px;
+    height: 54px;
+    left: 2.5%;
+    top: 10px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background-color: blue;
+    transition: 0.3s;
+    z-index: 1;
+}
+.logo:hover
+{
+    transform: scale(1.1);
+}
+
+.top_search
+{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+
+    box-sizing: border-box;
+    width: 95%;
+    height: 209px;
+    top: 20px;
+    
+
+    background: #0A3E1F;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    }
+
+.top_search p 
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 150%;
+    line-height: 44px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.reader_box
+{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reader_inner_box
+{
+    position: relative;
+
+    background: #FFFFFF;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+    height: 50px;
+    width: 40%;
+    max-width: 600px;
+    display: flex;
+
+
+}
+
+.reader
+{
+    padding-left: 60px;
+    width: 100%;
+    height: 100%;
+    float: right;
+    background: #FFFFFF;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+}
